@@ -1,0 +1,17 @@
+
+.text-center{
+	
+	color: black;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 100px;
+}
+
+.navbar{
+    background: transparent;
+}
