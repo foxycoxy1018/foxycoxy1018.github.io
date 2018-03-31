@@ -54,7 +54,7 @@ function moveFlakes(){
 	for(var i = 0; i < mf; i++){
 		var f = flakes[i];
 		f.y += f.r*0.01; //times 0.8
-		f.x += Math.sin(f.angle)*f.r/8; //divide by 4
+		f.x += Math.sin(f.angle)*f.r/16; //divide by 4
 		f.angle += 0.0005; //plus 0.05
 		//var toggle = true;
 		//if(toggle == true){
