@@ -5,14 +5,19 @@ canvas{
 }
 
 body, html{
-    height: 100%;
-    margin: 0;
+    bottom:3em;
+}
+
+.jumbotron{
+    margin-bottom:10px; 
+    background:white; 
+    text-align:center;
+    height:220px
 }
 
 .text-center{
-	
 	color: black;
-	position: absolute;
+	position:absolute;
     margin: auto;
     top: 0;
     right: 0;
@@ -23,11 +28,14 @@ body, html{
 }
 
 .footer{
-    position:fixed;
+    height:auto;
+    position:static;
     left:0;
     bottom:0;
     width:100%;
     text-align:center;
+    background:white;
 }
+
 
 
